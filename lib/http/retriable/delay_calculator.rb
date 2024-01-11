@@ -30,7 +30,7 @@ module HTTP
         (?:19[0-9]{2}|[2-9][0-9]{3})\s+
         (?:2[0-3]|[0-1][0-9]):(?:[0-5][0-9]):(?:60|[0-5][0-9])\s+
         GMT
-      $/x
+      $/x.freeze
 
       # Spec for Retry-After header
       # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After

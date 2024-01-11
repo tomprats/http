@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = HTTP::VERSION
 
-  gem.required_ruby_version = ">= 3.0"
+  gem.required_ruby_version = ">= 2.7"
 
   gem.add_runtime_dependency "addressable",    "~> 2.8"
   gem.add_runtime_dependency "base64",         "~> 0.1"

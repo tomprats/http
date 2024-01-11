@@ -2,8 +2,8 @@
 
 module HTTP
   class ContentType
-    MIME_TYPE_RE = %r{^([^/]+/[^;]+)(?:$|;)}
-    CHARSET_RE   = /;\s*charset=([^;]+)/i
+    MIME_TYPE_RE = %r{^([^/]+/[^;]+)(?:$|;)}.freeze
+    CHARSET_RE   = /;\s*charset=([^;]+)/i.freeze
 
     attr_accessor :mime_type, :charset
 
